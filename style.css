@@ -1,0 +1,335 @@
+body,h1,h2,h3,h4,h5,h6,p span,a{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header Section */
+.header-section{
+    background: url(./image/heading-bg.jpg) no-repeat center;
+    background-size: cover;
+    border-bottom: 1px solid #ddd;
+    padding: 22px 0;
+}
+.header-section .logo{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-section .logo span {
+	font-size: 17px;
+	margin-top: 6px;
+	margin-left: 5px;
+	display: inline-block;
+}
+.header-section .navbar-nav li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	padding: 4px 25px;
+	font-size: 16px;
+	font-weight: 400;
+    transition: .4s;
+}
+.header-section .navbar-nav li a:hover{
+    color: #00bcd4;
+}
+.header-section .d-flex input {
+	width: 35%;
+	text-align: center;
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-right: 5px;
+	padding: 7px;
+	font-size: 14px;
+    font-weight: 600;
+    transition: .4s;
+}
+.header-section .d-flex input:hover{
+    color: #00bcd4;
+    background: #fff;
+}
+.header-section .d-flex button {
+	background: #00bcd4;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	padding: 2px 25px;
+	margin-left: 5px;
+}
+
+/* Slider Section */
+.slider{
+    background: url(./image/banner-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 220px 0;
+}
+.slider-text h3 {
+	color: #fff;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-bottom: 42px;
+}
+.slider-text input {
+	width: 50%;
+	padding: 12px;
+	background: transparent;
+	color: #fff;
+	margin-right: 5px;
+	outline: 0;
+	border: 1px solid #fff;
+	font-size: 15px;
+}
+.slider-text button{
+    color: #fff;
+    background: #0ba3cd;
+    margin-left: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 0 28px;
+    font-weight: 500;
+}
+.slider-text .d-flex{
+    list-style: none;
+    padding-left: 0;
+}
+.slider-text .d-flex li {
+	width: 145px;
+	margin-top: 28px;
+	color: #fff;
+}
+.slider-text .d-flex li input{
+    width: 0;
+    margin-right: 8px;
+}
+.trusted h5{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Service Section */
+.colud-text h6{
+    color: #0ba3cd;
+    font-weight: 500;
+}
+.colud-text h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+.colud-text p{
+    color: #6a6a6a;
+    font-size: 15px;
+    line-height: 26px;
+}
+.service-info {
+	padding: 20px 0;
+	background: #f7f7f7;
+	padding: 33px;
+	margin-top: 60px;
+}
+.service-info span{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: #0ba3cd;
+    line-height: 100px;
+    font-size: 35px;
+    color: #fff;
+    border-radius: 50%;
+}
+.service-info h5 {
+	padding: 32px 0;
+	margin-bottom: 0;
+	font-size: 19px;
+}
+.service-info p {
+	color: #6a6a6a;
+	font-size: 15px;
+}
+.service-info p a{
+    text-decoration: none;
+}
+
+/* Pricing Section */
+.pricing{
+    background: url(./image/pricing-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 535px;
+}
+.pricing-text{
+    width: 68%;
+    margin: auto;
+    margin-top: 105px;
+}
+.pricing-text h3 {
+	font-size: 32px;
+	font-weight: 550;
+}
+.pricing-text p {
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.pricing .pricing-info {
+	position: relative;
+	top: 81px;
+}
+
+.pricing-info {
+	background: #fff;
+	padding: 55px 40px;
+    padding-bottom: 20px;
+}
+.pricing-info h5 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 38px;
+	text-transform: uppercase;
+    text-align: center;
+}
+.pricing-info .pricing-bg {
+	color: #fff;
+	background: #00bcd4;
+	padding: 26px 0;
+	width: 245px;
+	margin: auto;
+    text-align: center;
+}
+.pricing-info .pricing-bg h2 {
+	font-size: 32px;
+}
+.pricing-info .pricing-bg h6 {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.pricing-info p {
+	color: #6a6a6a;
+	font-size: 14px;
+	padding: 32px 0;
+    text-align: center;
+}
+.pricing-info ul{
+    list-style: none;
+    padding-left: 0;
+}
+.pricing-info ul li {
+	padding: 10px 0;
+	color: #6a6a6a;
+}
+.pricing-info ul li span{
+    display: inline-block;
+    color: #5c24cf;
+    margin-right: 11px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.pricing-info button {
+	background: #00bcd4;
+	padding: 12px 18px;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	margin-left: 24%;
+    margin-top: 12px;
+}
+
+/* Feature Section */
+.feature{
+    margin-top: 40%;
+}
+.feature-info {
+	box-shadow: 0px 0px 5px 0 #ddd;
+	padding: 12px 23px;
+	box-sizing: border-box;
+}
+.feature-info img {
+	margin-right: 30px;
+	height: 58px;
+	margin-top: 10px;
+}
+.feature-info .feature-text h6 {
+	font-weight: 500;
+	font-size: 19px;
+}
+.feature-info .feature-text p {
+	font-size: 15px;
+	color: #6a6a6a;
+	line-height: 26px;
+}
+
+/* Testimonil Section */
+.testimonial{
+	background: #f7f7f7;
+}
+.testimonil-item span {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	background: #5233d8;
+	color: #fff;
+	line-height: 61px;
+	border-radius: 50%;
+	font-size: 19px;
+}
+.testimonil-item p {
+	width: 84%;
+	margin: auto;
+	font-size: 20px;
+	font-style: italic;
+	color: #6a6a6a;
+	padding: 50px 0;
+	line-height: 35px;
+}
+.testimonil-item h5 {
+	font-size: 21px;
+	font-weight: 500;
+}
+.testimonil-item strong {
+	font-size: 15px;
+	color: #00bcd4;
+	font-weight: 400;
+}
+
+/* Footer Section */
+footer{
+	background: url(./image/footer-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.footer-top h4 {
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.footer-top p {
+	font-size: 14px;
+	line-height: 28px;
+}
+.footer-top ul{
+	list-style: none;
+	padding-left: 0;
+}
+.footer-top ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #fff;
+	padding: 6px 0;
+	font-size: 14px;
+	transition: .4s;
+}
+.footer-top ul li a:hover{
+	color: rgb(202, 199, 199);
+}
+.footer-top ul li strong {
+	font-size: 14px;
+	margin-right: 5px;
+	padding: 6px 0;
+	display: inline-block;
+}
+.footer-bottom-text p {
+	padding-top: 60px;
+	margin-top: 50px;
+	color: #fff;
+	border-top: 1px solid #ddd;
+	font-size: 15px;
+}
